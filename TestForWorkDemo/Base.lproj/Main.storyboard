@@ -68,10 +68,10 @@
             </objects>
             <point key="canvasLocation" x="948" y="252"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navagation Controller-->
         <scene sceneID="hbA-e2-2Ad">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qC2-Nb-dOd" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qC2-Nb-dOd" customClass="GFSNavagationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nru-Bo-afV">

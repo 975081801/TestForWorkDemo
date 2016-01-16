@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor redColor];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemUndo target:nil action:nil];
 }
 
 - (void)didReceiveMemoryWarning {

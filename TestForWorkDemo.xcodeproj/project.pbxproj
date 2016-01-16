@@ -17,6 +17,7 @@
 		EE4E8EDD1C4A911300746061 /* testcloth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE4E8EDC1C4A911300746061 /* testcloth.jpg */; };
 		EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EDF1C4A928700746061 /* GFSViewController.m */; };
 		EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */; };
+		EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE51C4A960200746061 /* GFSNavagationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		EE4E8EDF1C4A928700746061 /* GFSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSViewController.m; sourceTree = "<group>"; };
 		EE4E8EE11C4A930F00746061 /* GFSEvalueteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvalueteViewController.h; sourceTree = "<group>"; };
 		EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteViewController.m; sourceTree = "<group>"; };
+		EE4E8EE41C4A960200746061 /* GFSNavagationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSNavagationController.h; sourceTree = "<group>"; };
+		EE4E8EE51C4A960200746061 /* GFSNavagationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSNavagationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				EE4E8EDE1C4A928700746061 /* GFSViewController.h */,
 				EE4E8EDF1C4A928700746061 /* GFSViewController.m */,
+				EE4E8EE41C4A960200746061 /* GFSNavagationController.h */,
+				EE4E8EE51C4A960200746061 /* GFSNavagationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 				EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */,
 				EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */,
 				EE4E8EA41C4A8CB400746061 /* AppDelegate.m in Sources */,
+				EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */,
 				EE4E8EA11C4A8CB400746061 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +587,7 @@
 				EE4E8ECB1C4A8CB400746061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE4E8ECC1C4A8CB400746061 /* Build configuration list for PBXNativeTarget "TestForWorkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +596,7 @@
 				EE4E8ECE1C4A8CB400746061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE4E8ECF1C4A8CB400746061 /* Build configuration list for PBXNativeTarget "TestForWorkDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +605,7 @@
 				EE4E8ED11C4A8CB400746061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

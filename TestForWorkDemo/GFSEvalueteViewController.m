@@ -7,33 +7,51 @@
 //
 
 #import "GFSEvalueteViewController.h"
-
-@interface GFSEvalueteViewController ()
-
+#import "GFSTitleBar.h"
+#import "GFSEvalueteTableViewController.h"
+@interface GFSEvalueteViewController ()<GFSTitleBarDelegate>
+/**
+ *  表格
+ */
+@property(nonatomic,weak)GFSEvalueteTableViewController *tableView;
+/**
+ *  标题工具栏
+ */
+@property(nonatomic,weak)GFSTitleBar *titleBar;
 @end
-
+#warning 应该是加载网络数据的  模拟
 @implementation GFSEvalueteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 设置导航栏
+    [self setupNavagationTheme];
+    // 设置titleBar
+    [self setupTitleBar];
     
+}
+/**
+ *  设置titleBar
+ */
+- (void)setupTitleBar
+{
+    GFSTitleBar *titleBar = [[GFSTitleBar alloc]init];
+    CGFloat titleBarY = 64;
+    CGFloat titleBarW = self.view.bounds.size.width;
+    CGFloat titleBarH = 50;
+    titleBar.frame = CGRectMake(0, titleBarY, titleBarW, titleBarH);
+    titleBar.backgroundColor = GFSColor(100, 100, 100);
+    titleBar.delegate = self;
+    [self.view addSubview:titleBar];
+    self.titleBar = titleBar;
+}
+/**
+ *  设置导航栏
+ */
+- (void)setupNavagationTheme
+{
     self.view.backgroundColor = [UIColor redColor];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemUndo target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemOrganize target:nil action:nil];
+    self.title = @"商品评价";
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

@@ -10,5 +10,5 @@
 #define Prefix_pch
 
 #import "Common.h"
-
+#import "UIImage+GFS.h"
 #endif /* Prefix_pch */

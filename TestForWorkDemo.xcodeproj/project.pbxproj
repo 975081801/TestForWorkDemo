@@ -18,6 +18,16 @@
 		EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EDF1C4A928700746061 /* GFSViewController.m */; };
 		EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */; };
 		EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE51C4A960200746061 /* GFSNavagationController.m */; };
+		EE4E8EE91C4A96D900746061 /* GFSEvaluete.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE81C4A96D900746061 /* GFSEvaluete.m */; };
+		EE4E8EEC1C4A996700746061 /* GFSBuyProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */; };
+		EE4E8EEF1C4A9AA000746061 /* GFSEvalueteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */; };
+		EE4E8EF21C4A9B6B00746061 /* GFSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */; };
+		EE4E8EF61C4A9D0700746061 /* NSDateFormatter+GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF51C4A9D0700746061 /* NSDateFormatter+GFS.m */; };
+		EE4E8EF91C4A9D2F00746061 /* UIImage+GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF81C4A9D2F00746061 /* UIImage+GFS.m */; };
+		EE4E8EFC1C4A9E6000746061 /* GFSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EFB1C4A9E6000746061 /* GFSTableViewCell.m */; };
+		EE4E8EFF1C4A9EEC00746061 /* GFSTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EFE1C4A9EEC00746061 /* GFSTitleBar.m */; };
+		EE4E8F021C4AA50800746061 /* GFSTableViewCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8F011C4AA50800746061 /* GFSTableViewCellFrame.m */; };
+		EE4E8F081C4AB06500746061 /* GFSTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8F071C4AB06500746061 /* GFSTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +71,26 @@
 		EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteViewController.m; sourceTree = "<group>"; };
 		EE4E8EE41C4A960200746061 /* GFSNavagationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSNavagationController.h; sourceTree = "<group>"; };
 		EE4E8EE51C4A960200746061 /* GFSNavagationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSNavagationController.m; sourceTree = "<group>"; };
+		EE4E8EE71C4A96D900746061 /* GFSEvaluete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvaluete.h; sourceTree = "<group>"; };
+		EE4E8EE81C4A96D900746061 /* GFSEvaluete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvaluete.m; sourceTree = "<group>"; };
+		EE4E8EEA1C4A996700746061 /* GFSBuyProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSBuyProduct.h; sourceTree = "<group>"; };
+		EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSBuyProduct.m; sourceTree = "<group>"; };
+		EE4E8EED1C4A9AA000746061 /* GFSEvalueteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvalueteTableViewController.h; sourceTree = "<group>"; };
+		EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteTableViewController.m; sourceTree = "<group>"; };
+		EE4E8EF01C4A9B6B00746061 /* GFSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSCustomer.h; sourceTree = "<group>"; };
+		EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSCustomer.m; sourceTree = "<group>"; };
+		EE4E8EF41C4A9D0700746061 /* NSDateFormatter+GFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+GFS.h"; sourceTree = "<group>"; };
+		EE4E8EF51C4A9D0700746061 /* NSDateFormatter+GFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+GFS.m"; sourceTree = "<group>"; };
+		EE4E8EF71C4A9D2F00746061 /* UIImage+GFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GFS.h"; sourceTree = "<group>"; };
+		EE4E8EF81C4A9D2F00746061 /* UIImage+GFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GFS.m"; sourceTree = "<group>"; };
+		EE4E8EFA1C4A9E6000746061 /* GFSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSTableViewCell.h; sourceTree = "<group>"; };
+		EE4E8EFB1C4A9E6000746061 /* GFSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSTableViewCell.m; sourceTree = "<group>"; };
+		EE4E8EFD1C4A9EEC00746061 /* GFSTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSTitleBar.h; sourceTree = "<group>"; };
+		EE4E8EFE1C4A9EEC00746061 /* GFSTitleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSTitleBar.m; sourceTree = "<group>"; };
+		EE4E8F001C4AA50800746061 /* GFSTableViewCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSTableViewCellFrame.h; sourceTree = "<group>"; };
+		EE4E8F011C4AA50800746061 /* GFSTableViewCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSTableViewCellFrame.m; sourceTree = "<group>"; };
+		EE4E8F061C4AB06500746061 /* GFSTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSTitleView.h; sourceTree = "<group>"; };
+		EE4E8F071C4AB06500746061 /* GFSTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +211,7 @@
 		EE4E8ED61C4A8E1E00746061 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EE4E8EF31C4A9CC000746061 /* Category */,
 				EE4E8EA21C4A8CB400746061 /* AppDelegate.h */,
 				EE4E8EA31C4A8CB400746061 /* AppDelegate.m */,
 				EE4E8EDB1C4A8EC500746061 /* Common.h */,
@@ -203,6 +234,8 @@
 			children = (
 				EE4E8EE11C4A930F00746061 /* GFSEvalueteViewController.h */,
 				EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */,
+				EE4E8EED1C4A9AA000746061 /* GFSEvalueteTableViewController.h */,
+				EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -210,6 +243,12 @@
 		EE4E8ED91C4A8E9500746061 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE4E8EFA1C4A9E6000746061 /* GFSTableViewCell.h */,
+				EE4E8EFB1C4A9E6000746061 /* GFSTableViewCell.m */,
+				EE4E8EFD1C4A9EEC00746061 /* GFSTitleBar.h */,
+				EE4E8EFE1C4A9EEC00746061 /* GFSTitleBar.m */,
+				EE4E8F061C4AB06500746061 /* GFSTitleView.h */,
+				EE4E8F071C4AB06500746061 /* GFSTitleView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -217,8 +256,27 @@
 		EE4E8EDA1C4A8E9900746061 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE4E8EE71C4A96D900746061 /* GFSEvaluete.h */,
+				EE4E8EE81C4A96D900746061 /* GFSEvaluete.m */,
+				EE4E8EEA1C4A996700746061 /* GFSBuyProduct.h */,
+				EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */,
+				EE4E8EF01C4A9B6B00746061 /* GFSCustomer.h */,
+				EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */,
+				EE4E8F001C4AA50800746061 /* GFSTableViewCellFrame.h */,
+				EE4E8F011C4AA50800746061 /* GFSTableViewCellFrame.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EE4E8EF31C4A9CC000746061 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E8EF41C4A9D0700746061 /* NSDateFormatter+GFS.h */,
+				EE4E8EF51C4A9D0700746061 /* NSDateFormatter+GFS.m */,
+				EE4E8EF71C4A9D2F00746061 /* UIImage+GFS.h */,
+				EE4E8EF81C4A9D2F00746061 /* UIImage+GFS.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,11 +413,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4E8EFC1C4A9E6000746061 /* GFSTableViewCell.m in Sources */,
+				EE4E8EF21C4A9B6B00746061 /* GFSCustomer.m in Sources */,
+				EE4E8EFF1C4A9EEC00746061 /* GFSTitleBar.m in Sources */,
+				EE4E8EF91C4A9D2F00746061 /* UIImage+GFS.m in Sources */,
 				EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */,
+				EE4E8F081C4AB06500746061 /* GFSTitleView.m in Sources */,
+				EE4E8EEC1C4A996700746061 /* GFSBuyProduct.m in Sources */,
+				EE4E8EEF1C4A9AA000746061 /* GFSEvalueteTableViewController.m in Sources */,
+				EE4E8EF61C4A9D0700746061 /* NSDateFormatter+GFS.m in Sources */,
 				EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */,
 				EE4E8EA41C4A8CB400746061 /* AppDelegate.m in Sources */,
 				EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */,
 				EE4E8EA11C4A8CB400746061 /* main.m in Sources */,
+				EE4E8F021C4AA50800746061 /* GFSTableViewCellFrame.m in Sources */,
+				EE4E8EE91C4A96D900746061 /* GFSEvaluete.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

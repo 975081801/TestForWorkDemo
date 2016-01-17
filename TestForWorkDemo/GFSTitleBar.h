@@ -17,7 +17,10 @@ typedef enum {
     kGFSTitleTypeBad,
     kGFSTitleTypePhoto
 }GFSTitleType;
-@class GFSTitleBar;
+@class GFSTitleBar,GFSTitleView;
+/**
+ *  通知或者代理 皆可实现 这里用代理
+ */
 @protocol GFSTitleBarDelegate <NSObject>
 
 @optional
@@ -26,4 +29,9 @@ typedef enum {
 @end
 @interface GFSTitleBar : UIView
 @property(nonatomic,weak)id<GFSTitleBarDelegate> delegate;
+@property(nonatomic,weak)GFSTitleView *total;
+@property(nonatomic,weak)GFSTitleView *better;
+@property(nonatomic,weak)GFSTitleView *middle;
+@property(nonatomic,weak)GFSTitleView *bad;
+@property(nonatomic,weak)GFSTitleView *photoTitle;
 @end

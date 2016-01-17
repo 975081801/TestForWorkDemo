@@ -10,6 +10,10 @@
 
 @interface GFSBuyProduct : NSObject
 /**
+ *  男女款
+ */
+@property(nonatomic,copy)NSString *sex;
+/**
  *  款式
  */
 @property(nonatomic,copy)NSString *style;

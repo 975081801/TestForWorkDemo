@@ -16,14 +16,6 @@
 @end
 @implementation GFSTitleView
 
-- (void)drawRect:(CGRect)rect
-{
-    [super drawRect:rect];
-    
-    [_fillColor set];
-    
-    UIRectFillUsingBlendMode(rect, kCGBlendModeSourceIn);
-}
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
@@ -45,11 +37,12 @@
     valueLable.font = GFSValueFont;
     valueLable.textAlignment = NSTextAlignmentCenter;
     [self addSubview:valueLable];
-    self.titleLable = valueLable;
+    self.valueLable = valueLable;
     
     UIView *underLine = [[UIView alloc]init];
     // 默认隐藏
     underLine.hidden =YES;
+    underLine.layer.cornerRadius = 3;
     [self addSubview:underLine];
     self.underLine = underLine;
 }
@@ -67,12 +60,49 @@
 {
     _selected = selected;
     // 选中时显示下划线
-    self.underLine.hidden = !selected;
+//    [UIView animateWithDuration:0.5 animations:^{
+        self.underLine.hidden = !selected;
+        if (self.underLine.hidden) {
+            
+            self.fillColor = GFSColor(0, 0, 0, 1);
+        } else {
+            self.fillColor = [UIColor greenColor];
+        }
+//    }];
+    
+}
+- (void)setFillColor:(UIColor *)fillColor
+{
+    _fillColor = fillColor;
+    
+    self.titleLable.textColor = fillColor;
+    self.underLine.backgroundColor = fillColor;
+    self.valueLable.textColor = fillColor;
 }
 - (void)layoutSubviews
 {
     [super layoutSubviews];
     // 设置各控件尺寸
     
+    CGFloat titleLableY = GFSTitleMarginY;
+    NSDictionary *titleAttr = @{NSFontAttributeName:GFSTitleFont};
+    CGFloat titleLableH = [self.titleLable.text sizeWithAttributes:titleAttr].height;
+    CGFloat titleLableW = self.frame.size.width;
+    self.titleLable.frame = CGRectMake(0, titleLableY, titleLableW, titleLableH);
+    // value
+    
+    NSDictionary *valueAttr = @{NSFontAttributeName:GFSValueFont};
+    CGFloat valueY = GFSTitleMarginY + CGRectGetMaxY(self.titleLable.frame);
+    CGFloat valueW = titleLableW;
+//    CGFloat valueH = 20;
+    CGFloat valueH = [self.valueLable.text sizeWithAttributes:valueAttr].height;
+    self.valueLable.frame = CGRectMake(0, valueY, valueW, valueH);
+    
+    // underLine
+    CGFloat underX = 10;
+    CGFloat underH = 3;
+    CGFloat underW = titleLableW - 2*underX;
+    CGFloat underY = CGRectGetMaxY(self.frame) - underH;
+    self.underLine.frame = CGRectMake(underX, underY, underW, underH);
 }
 @end

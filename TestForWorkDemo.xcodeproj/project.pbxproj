@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1B8FD88AA049CDAF1F9C797 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9E6FFCC2166849C6064775 /* libPods.a */; };
+		EE1423BE1C4B591000D4F7B6 /* GFSEvalueteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1423BD1C4B591000D4F7B6 /* GFSEvalueteViewController.m */; };
+		EE1423C11C4B8F0400D4F7B6 /* GFSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1423C01C4B8F0400D4F7B6 /* GFSPhoto.m */; };
+		EE1423C41C4B8F7600D4F7B6 /* GFSPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1423C31C4B8F7600D4F7B6 /* GFSPhotoView.m */; };
+		EE1423C71C4B91FD00D4F7B6 /* GFSPhotoViews.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1423C61C4B91FD00D4F7B6 /* GFSPhotoViews.m */; };
+		EE1423C91C4BAE3900D4F7B6 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423C81C4BAE3900D4F7B6 /* 01.jpg */; };
+		EE1423CB1C4BAE5100D4F7B6 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423CA1C4BAE5100D4F7B6 /* 06.jpg */; };
+		EE1423D01C4BAEA300D4F7B6 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423CC1C4BAEA300D4F7B6 /* 02.jpg */; };
+		EE1423D11C4BAEA300D4F7B6 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423CD1C4BAEA300D4F7B6 /* 03.jpg */; };
+		EE1423D21C4BAEA300D4F7B6 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423CE1C4BAEA300D4F7B6 /* 04.jpg */; };
+		EE1423D31C4BAEA300D4F7B6 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE1423CF1C4BAEA300D4F7B6 /* 05.jpg */; };
+		EE1423D61C4BB52000D4F7B6 /* GFSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1423D51C4BB52000D4F7B6 /* GFSTableViewController.m */; };
 		EE4E8EA11C4A8CB400746061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EA01C4A8CB400746061 /* main.m */; };
 		EE4E8EA41C4A8CB400746061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EA31C4A8CB400746061 /* AppDelegate.m */; };
 		EE4E8EAA1C4A8CB400746061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4E8EA81C4A8CB400746061 /* Main.storyboard */; };
@@ -16,11 +28,9 @@
 		EE4E8EC51C4A8CB400746061 /* TestForWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EC41C4A8CB400746061 /* TestForWorkDemoUITests.m */; };
 		EE4E8EDD1C4A911300746061 /* testcloth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE4E8EDC1C4A911300746061 /* testcloth.jpg */; };
 		EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EDF1C4A928700746061 /* GFSViewController.m */; };
-		EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */; };
 		EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE51C4A960200746061 /* GFSNavagationController.m */; };
 		EE4E8EE91C4A96D900746061 /* GFSEvaluete.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EE81C4A96D900746061 /* GFSEvaluete.m */; };
 		EE4E8EEC1C4A996700746061 /* GFSBuyProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */; };
-		EE4E8EEF1C4A9AA000746061 /* GFSEvalueteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */; };
 		EE4E8EF21C4A9B6B00746061 /* GFSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */; };
 		EE4E8EF61C4A9D0700746061 /* NSDateFormatter+GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF51C4A9D0700746061 /* NSDateFormatter+GFS.m */; };
 		EE4E8EF91C4A9D2F00746061 /* UIImage+GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E8EF81C4A9D2F00746061 /* UIImage+GFS.m */; };
@@ -48,6 +58,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7422CE039210405282883524 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7A9E6FFCC2166849C6064775 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A5B162054CA708D86F0B71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1423BC1C4B591000D4F7B6 /* GFSEvalueteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvalueteViewController.h; sourceTree = "<group>"; };
+		EE1423BD1C4B591000D4F7B6 /* GFSEvalueteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteViewController.m; sourceTree = "<group>"; };
+		EE1423BF1C4B8F0400D4F7B6 /* GFSPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSPhoto.h; sourceTree = "<group>"; };
+		EE1423C01C4B8F0400D4F7B6 /* GFSPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSPhoto.m; sourceTree = "<group>"; };
+		EE1423C21C4B8F7600D4F7B6 /* GFSPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSPhotoView.h; sourceTree = "<group>"; };
+		EE1423C31C4B8F7600D4F7B6 /* GFSPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSPhotoView.m; sourceTree = "<group>"; };
+		EE1423C51C4B91FD00D4F7B6 /* GFSPhotoViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSPhotoViews.h; sourceTree = "<group>"; };
+		EE1423C61C4B91FD00D4F7B6 /* GFSPhotoViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSPhotoViews.m; sourceTree = "<group>"; };
+		EE1423C81C4BAE3900D4F7B6 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		EE1423CA1C4BAE5100D4F7B6 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		EE1423CC1C4BAEA300D4F7B6 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		EE1423CD1C4BAEA300D4F7B6 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		EE1423CE1C4BAEA300D4F7B6 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		EE1423CF1C4BAEA300D4F7B6 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		EE1423D41C4BB52000D4F7B6 /* GFSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSTableViewController.h; sourceTree = "<group>"; };
+		EE1423D51C4BB52000D4F7B6 /* GFSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSTableViewController.m; sourceTree = "<group>"; };
 		EE4E8E9C1C4A8CB400746061 /* TestForWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4E8EA01C4A8CB400746061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE4E8EA21C4A8CB400746061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,16 +96,12 @@
 		EE4E8EDC1C4A911300746061 /* testcloth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testcloth.jpg; sourceTree = "<group>"; };
 		EE4E8EDE1C4A928700746061 /* GFSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSViewController.h; sourceTree = "<group>"; };
 		EE4E8EDF1C4A928700746061 /* GFSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSViewController.m; sourceTree = "<group>"; };
-		EE4E8EE11C4A930F00746061 /* GFSEvalueteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvalueteViewController.h; sourceTree = "<group>"; };
-		EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteViewController.m; sourceTree = "<group>"; };
 		EE4E8EE41C4A960200746061 /* GFSNavagationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSNavagationController.h; sourceTree = "<group>"; };
 		EE4E8EE51C4A960200746061 /* GFSNavagationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSNavagationController.m; sourceTree = "<group>"; };
 		EE4E8EE71C4A96D900746061 /* GFSEvaluete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvaluete.h; sourceTree = "<group>"; };
 		EE4E8EE81C4A96D900746061 /* GFSEvaluete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvaluete.m; sourceTree = "<group>"; };
 		EE4E8EEA1C4A996700746061 /* GFSBuyProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSBuyProduct.h; sourceTree = "<group>"; };
 		EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSBuyProduct.m; sourceTree = "<group>"; };
-		EE4E8EED1C4A9AA000746061 /* GFSEvalueteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSEvalueteTableViewController.h; sourceTree = "<group>"; };
-		EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSEvalueteTableViewController.m; sourceTree = "<group>"; };
 		EE4E8EF01C4A9B6B00746061 /* GFSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSCustomer.h; sourceTree = "<group>"; };
 		EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSCustomer.m; sourceTree = "<group>"; };
 		EE4E8EF41C4A9D0700746061 /* NSDateFormatter+GFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+GFS.h"; sourceTree = "<group>"; };
@@ -98,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B8FD88AA049CDAF1F9C797 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +144,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A68641B31C2C5B1362E136F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6A5B162054CA708D86F0B71 /* Pods.debug.xcconfig */,
+				7422CE039210405282883524 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4E298A91F85869C94D4B4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9E6FFCC2166849C6064775 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1423BA1C4B463B00D4F7B6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		EE1423BB1C4B464900D4F7B6 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		EE4E8E931C4A8CB300746061 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +182,8 @@
 				EE4E8EB81C4A8CB400746061 /* TestForWorkDemoTests */,
 				EE4E8EC31C4A8CB400746061 /* TestForWorkDemoUITests */,
 				EE4E8E9D1C4A8CB400746061 /* Products */,
+				A68641B31C2C5B1362E136F5 /* Pods */,
+				B4E298A91F85869C94D4B4EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +212,12 @@
 			isa = PBXGroup;
 			children = (
 				EE4E8EAB1C4A8CB400746061 /* Assets.xcassets */,
+				EE1423C81C4BAE3900D4F7B6 /* 01.jpg */,
+				EE1423CC1C4BAEA300D4F7B6 /* 02.jpg */,
+				EE1423CD1C4BAEA300D4F7B6 /* 03.jpg */,
+				EE1423CE1C4BAEA300D4F7B6 /* 04.jpg */,
+				EE1423CF1C4BAEA300D4F7B6 /* 05.jpg */,
+				EE1423CA1C4BAE5100D4F7B6 /* 06.jpg */,
 				EE4E8EAD1C4A8CB400746061 /* LaunchScreen.storyboard */,
 				EE4E8EDC1C4A911300746061 /* testcloth.jpg */,
 				EE4E8EB01C4A8CB400746061 /* Info.plist */,
@@ -211,6 +276,8 @@
 		EE4E8ED61C4A8E1E00746061 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EE1423BB1C4B464900D4F7B6 /* Lib */,
+				EE1423BA1C4B463B00D4F7B6 /* Tool */,
 				EE4E8EF31C4A9CC000746061 /* Category */,
 				EE4E8EA21C4A8CB400746061 /* AppDelegate.h */,
 				EE4E8EA31C4A8CB400746061 /* AppDelegate.m */,
@@ -232,10 +299,10 @@
 		EE4E8ED81C4A8E8C00746061 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EE4E8EE11C4A930F00746061 /* GFSEvalueteViewController.h */,
-				EE4E8EE21C4A930F00746061 /* GFSEvalueteViewController.m */,
-				EE4E8EED1C4A9AA000746061 /* GFSEvalueteTableViewController.h */,
-				EE4E8EEE1C4A9AA000746061 /* GFSEvalueteTableViewController.m */,
+				EE1423BC1C4B591000D4F7B6 /* GFSEvalueteViewController.h */,
+				EE1423BD1C4B591000D4F7B6 /* GFSEvalueteViewController.m */,
+				EE1423D41C4BB52000D4F7B6 /* GFSTableViewController.h */,
+				EE1423D51C4BB52000D4F7B6 /* GFSTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -249,6 +316,10 @@
 				EE4E8EFE1C4A9EEC00746061 /* GFSTitleBar.m */,
 				EE4E8F061C4AB06500746061 /* GFSTitleView.h */,
 				EE4E8F071C4AB06500746061 /* GFSTitleView.m */,
+				EE1423C21C4B8F7600D4F7B6 /* GFSPhotoView.h */,
+				EE1423C31C4B8F7600D4F7B6 /* GFSPhotoView.m */,
+				EE1423C51C4B91FD00D4F7B6 /* GFSPhotoViews.h */,
+				EE1423C61C4B91FD00D4F7B6 /* GFSPhotoViews.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -262,6 +333,8 @@
 				EE4E8EEB1C4A996700746061 /* GFSBuyProduct.m */,
 				EE4E8EF01C4A9B6B00746061 /* GFSCustomer.h */,
 				EE4E8EF11C4A9B6B00746061 /* GFSCustomer.m */,
+				EE1423BF1C4B8F0400D4F7B6 /* GFSPhoto.h */,
+				EE1423C01C4B8F0400D4F7B6 /* GFSPhoto.m */,
 				EE4E8F001C4AA50800746061 /* GFSTableViewCellFrame.h */,
 				EE4E8F011C4AA50800746061 /* GFSTableViewCellFrame.m */,
 			);
@@ -286,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE4E8EC91C4A8CB400746061 /* Build configuration list for PBXNativeTarget "TestForWorkDemo" */;
 			buildPhases = (
+				9860681CC97A26DDEB9E9CEF /* Check Pods Manifest.lock */,
 				EE4E8E981C4A8CB300746061 /* Sources */,
 				EE4E8E991C4A8CB300746061 /* Frameworks */,
 				EE4E8E9A1C4A8CB300746061 /* Resources */,
+				51F2963A84BB9EDAB80080CC /* Embed Pods Frameworks */,
+				303EE40BDDA029711A4F7233 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,7 +464,13 @@
 				EE4E8EAF1C4A8CB400746061 /* LaunchScreen.storyboard in Resources */,
 				EE4E8EAC1C4A8CB400746061 /* Assets.xcassets in Resources */,
 				EE4E8EAA1C4A8CB400746061 /* Main.storyboard in Resources */,
+				EE1423CB1C4BAE5100D4F7B6 /* 06.jpg in Resources */,
+				EE1423C91C4BAE3900D4F7B6 /* 01.jpg in Resources */,
+				EE1423D11C4BAEA300D4F7B6 /* 03.jpg in Resources */,
 				EE4E8EDD1C4A911300746061 /* testcloth.jpg in Resources */,
+				EE1423D01C4BAEA300D4F7B6 /* 02.jpg in Resources */,
+				EE1423D31C4BAEA300D4F7B6 /* 05.jpg in Resources */,
+				EE1423D21C4BAEA300D4F7B6 /* 04.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,25 +490,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		303EE40BDDA029711A4F7233 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F2963A84BB9EDAB80080CC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9860681CC97A26DDEB9E9CEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE4E8E981C4A8CB300746061 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE4E8EFC1C4A9E6000746061 /* GFSTableViewCell.m in Sources */,
+				EE1423BE1C4B591000D4F7B6 /* GFSEvalueteViewController.m in Sources */,
 				EE4E8EF21C4A9B6B00746061 /* GFSCustomer.m in Sources */,
+				EE1423C71C4B91FD00D4F7B6 /* GFSPhotoViews.m in Sources */,
 				EE4E8EFF1C4A9EEC00746061 /* GFSTitleBar.m in Sources */,
+				EE1423C11C4B8F0400D4F7B6 /* GFSPhoto.m in Sources */,
 				EE4E8EF91C4A9D2F00746061 /* UIImage+GFS.m in Sources */,
-				EE4E8EE31C4A930F00746061 /* GFSEvalueteViewController.m in Sources */,
 				EE4E8F081C4AB06500746061 /* GFSTitleView.m in Sources */,
 				EE4E8EEC1C4A996700746061 /* GFSBuyProduct.m in Sources */,
-				EE4E8EEF1C4A9AA000746061 /* GFSEvalueteTableViewController.m in Sources */,
 				EE4E8EF61C4A9D0700746061 /* NSDateFormatter+GFS.m in Sources */,
+				EE1423D61C4BB52000D4F7B6 /* GFSTableViewController.m in Sources */,
 				EE4E8EE01C4A928700746061 /* GFSViewController.m in Sources */,
 				EE4E8EA41C4A8CB400746061 /* AppDelegate.m in Sources */,
 				EE4E8EE61C4A960200746061 /* GFSNavagationController.m in Sources */,
 				EE4E8EA11C4A8CB400746061 /* main.m in Sources */,
 				EE4E8F021C4AA50800746061 /* GFSTableViewCellFrame.m in Sources */,
+				EE1423C41C4B8F7600D4F7B6 /* GFSPhotoView.m in Sources */,
 				EE4E8EE91C4A96D900746061 /* GFSEvaluete.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +697,7 @@
 		};
 		EE4E8ECA1C4A8CB400746061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A5B162054CA708D86F0B71 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -577,6 +711,7 @@
 		};
 		EE4E8ECB1C4A8CB400746061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7422CE039210405282883524 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

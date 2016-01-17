@@ -25,5 +25,6 @@
 /**
  *  已购买的物品 （款式  颜色  尺寸）
  */
+@property(nonatomic,copy)NSString *boughtStr;
 @property(nonatomic,strong)GFSBuyProduct *boughtProduct;
 @end

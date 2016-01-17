@@ -22,7 +22,7 @@
  */
 @property(nonatomic,assign)int evalueteLevel;
 /**
- *  图片 （买家秀图片）
+ *  图片 （买家秀图片 内GFSPhoto模型）
  */
 @property(nonatomic,strong)NSArray *photos;
 /**

@@ -53,7 +53,7 @@
     UINavigationBar *navBar = [UINavigationBar appearance];
     // 设置标题属性
     NSMutableDictionary *textAttrs = [[NSMutableDictionary alloc]init];
-    textAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    textAttrs[NSForegroundColorAttributeName] = GFSColor(84, 85, 86 ,1);
     // 阴影设置
     NSShadow *shadow = [[NSShadow alloc]init];
     shadow.shadowColor = [UIColor clearColor];
@@ -76,6 +76,6 @@
     }
     [super pushViewController:viewController animated:animated];
 }
-#warning 自定义导航的按钮等自定义未做
+#warning 自定义导航的按钮等自定义未做 
 
 @end

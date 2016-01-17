@@ -13,4 +13,8 @@
 {
     return _vipLevel? _vipLevel:0;
 }
+- (NSString *)boughtStr
+{
+    return[NSString stringWithFormat:@"已购：%@ 款式：%@ 颜色：%@ 尺码：%@",self.boughtProduct.sex,self.boughtProduct.style,self.boughtProduct.color,self.boughtProduct.size];
+}
 @end

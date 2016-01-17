@@ -98,8 +98,8 @@
     
     // 9.已购买信息
     self.boughtLable.text = customer.boughtStr;
-    CGSize boughtSize = [self.boughtLable.text sizeWithAttributes:@{NSFontAttributeName:GFSTimeFont}];
-    CGFloat boughtLableX = CGRectGetMaxX(cellFrame.timeLabelF) + GFSCellBorder;
+    CGSize boughtSize = [customer.boughtStr sizeWithAttributes:@{NSFontAttributeName:GFSTimeFont}];
+    CGFloat boughtLableX = CGRectGetMaxX(cellFrame.timeLabelF) + GFSCellBorder*0.5;
     CGFloat boughtLableY = self.timeLabel.frame.origin.y;
     
     CGRect boughtFrame = CGRectMake(boughtLableX, boughtLableY, boughtSize.width, boughtSize.height);
@@ -125,26 +125,26 @@
     /**  头像 */
     UIImageView *iconView = [[UIImageView alloc]init];
     iconView.contentMode = UIViewContentModeScaleAspectFill;
-    [self addSubview:iconView];
+    [self.contentView addSubview:iconView];
     self.iconView = iconView;
     
     /** 昵称 */
     UILabel *nameLabel = [[UILabel alloc]init];
     nameLabel.backgroundColor = [UIColor clearColor];
     nameLabel.font = GFSTitleFont;
-    [self addSubview:nameLabel];
+    [self.contentView addSubview:nameLabel];
     self.nameLabel = nameLabel;
     
     /** 会员图标 */
     UIImageView *vipView = [[UIImageView alloc]init];
     vipView.contentMode = UIViewContentModeScaleAspectFill;
-    [self addSubview:vipView];
+    [self.contentView addSubview:vipView];
     self.vipView = vipView;
     
     /** 评价级别 */
     UIImageView *levelIcon = [[UIImageView alloc]init];
     levelIcon.contentMode = UIViewContentModeScaleAspectFill;
-    [self addSubview:levelIcon];
+    [self.contentView addSubview:levelIcon];
     self.levelIcon = levelIcon;
     
     /** 正文 */
@@ -152,12 +152,12 @@
     contentLabel.numberOfLines = 0;
     contentLabel.textColor = GFSColor(39, 39, 39, 1.0);
     contentLabel.font = GFSContentFont;
-    [self addSubview:contentLabel];
+    [self.contentView addSubview:contentLabel];
     self.contentLabel = contentLabel;
     
     /** 配图 */
     GFSPhotoViews *photoView = [[GFSPhotoViews alloc]init];
-    [self addSubview:photoView];
+    [self.contentView addSubview:photoView];
     self.photoView = photoView;
     
     /**  时间 */
@@ -165,7 +165,7 @@
     timeLabel.font = GFSTimeFont;
     timeLabel.textColor = GFSColor(240, 140, 19, 1.0);
     timeLabel.backgroundColor = [UIColor clearColor];
-    [self addSubview:timeLabel];
+    [self.contentView addSubview:timeLabel];
     self.timeLabel = timeLabel;
     
     /** 已购买信息 */
@@ -174,6 +174,6 @@
     boughtLable.textColor = GFSColor(240, 140, 19, 1.0);
     boughtLable.backgroundColor = [UIColor clearColor];
     [self.contentView addSubview:boughtLable];
-    self.timeLabel = boughtLable;
+    self.boughtLable = boughtLable;
 }
 @end

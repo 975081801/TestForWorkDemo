@@ -13,8 +13,9 @@
 {
     return _vipLevel? _vipLevel:0;
 }
-- (NSString *)boughtStr
+- (void)setBoughtProduct:(GFSBuyProduct *)boughtProduct
 {
-    return[NSString stringWithFormat:@"已购：%@ 款式：%@ 颜色：%@ 尺码：%@",self.boughtProduct.sex,self.boughtProduct.style,self.boughtProduct.color,self.boughtProduct.size];
+    _boughtProduct = boughtProduct;
+    self.boughtStr = [NSString stringWithFormat:@"已购:%@ 款式:%@ 颜色:%@ 尺码:%@",boughtProduct.sex,boughtProduct.style,boughtProduct.color,boughtProduct.size];
 }
 @end

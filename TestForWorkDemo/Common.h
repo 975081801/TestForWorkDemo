@@ -20,7 +20,7 @@
 /**
  *  时间字体
  */
-#define GFSTimeFont [UIFont systemFontOfSize:13.0]
+#define GFSTimeFont [UIFont systemFontOfSize:10.0]
 #define GFSNameFont GFSTitleFont
 #define GFSContentFont GFSTitleFont
 /**

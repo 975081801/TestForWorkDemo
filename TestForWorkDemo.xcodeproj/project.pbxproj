@@ -168,13 +168,6 @@
 			name = Tool;
 			sourceTree = "<group>";
 		};
-		EE1423BB1C4B464900D4F7B6 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
 		EE4E8E931C4A8CB300746061 = {
 			isa = PBXGroup;
 			children = (
@@ -276,7 +269,6 @@
 		EE4E8ED61C4A8E1E00746061 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				EE1423BB1C4B464900D4F7B6 /* Lib */,
 				EE1423BA1C4B463B00D4F7B6 /* Tool */,
 				EE4E8EF31C4A9CC000746061 /* Category */,
 				EE4E8EA21C4A8CB400746061 /* AppDelegate.h */,

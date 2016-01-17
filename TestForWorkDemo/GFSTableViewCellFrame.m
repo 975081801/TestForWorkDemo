@@ -79,7 +79,7 @@
     _timeLabelF = CGRectMake(timeX, timeY, timeSize.width, timeSize.height);
     
     // 8.已购买信息
-    CGFloat boughtLableX = CGRectGetMaxX(_timeLabelF) + GFSCellBorder;
+    CGFloat boughtLableX = CGRectGetMaxX(_timeLabelF) + GFSCellBorder*0.3;
     CGFloat boughtLableY = timeY;
     
     CGSize boughtLableSzie = [evaluete.customer.boughtStr sizeWithAttributes:@{NSFontAttributeName:GFSTimeFont}];
